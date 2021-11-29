@@ -1,10 +1,10 @@
 
-  # Proj title
+  # Portfolio Generator
 
-  ![License badge](https://img.shields.io/static/v1?label=License&message=GNU-LGPLv3-License&color=informational)
+  ![License badge](https://img.shields.io/static/v1?label=License&message=Boost-Software-License-1.0&color=informational)
 
   ## Description
-  Proj desc
+  Generate a professional portfolio using the command line.
 
   ## Table of Contents
   - [Description](#description)
@@ -16,20 +16,20 @@
   - [Contact](#contact)
 
   ## Installation
-  install steps
+  Clone the portfolio-generator GitHub repository to your local machine.
 
   ## Usage
-  usage
+  Navigate to the root directory of the local portfolio-generator repo and run node app from the command line.
 
   ## License
-  NOTICE: This project is covered under the GNU-LGPLv3-License.
+  NOTICE: This project is covered under the Boost-Software-License-1.0.
 
   ## Contributing
-  contribute
+  Open a GitHub Issue or contact the author.
 
   ## Tests
-  test steps
+  Choose different responses to the various prompts including empty responses to test error validation.
 
   ## Contact
-  [Check out LSabin23 on GitHub](https://github.com/LSabin23/), but you can also send an email to [LSabin23's email](mailto:fake@email.com) with any questions!
+  [Check out LSabin23 on GitHub](https://github.com/LSabin23/), but you can also send an email to [LSabin23's email](mailto:dev.l.email@fakeemail.com) with any questions!
   
