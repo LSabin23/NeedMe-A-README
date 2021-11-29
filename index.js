@@ -61,7 +61,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Choose a license.',
-    choices: [ 'License A', 'License B', 'License C', 'License D', 'License E' ]
+    choices: [ 'Apache-2.0-License', 'Boost-Software-License-1.0', 'GNU-AGPLv3-License', 'GNU-GPLv3-License', 'GNU-LGPLv3-License', 'MIT-License', 'Mozilla-Public-License-2.0', 'Unilicense' ]
   },
   {
     type: 'input',
@@ -134,7 +134,7 @@ const writeToFile = data => {
 }
 
 // TODO: Create a function to initialize app
-function init () {
+const init = () => {
   // ask the user questions about their project
   inquirer.prompt(questions)
     // take user input and create markdown content

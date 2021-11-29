@@ -1,8 +1,10 @@
 
-  # Project Title ABCD
+  # Proj title
+
+  ![License badge](https://img.shields.io/static/v1?label=License&message=GNU-LGPLv3-License&color=informational)
 
   ## Description
-  Brief description goes in this spot. Give it some additional information. Keep typing cause you're bored.
+  Proj desc
 
   ## Table of Contents
   - [Description](#description)
@@ -14,21 +16,20 @@
   - [Contact](#contact)
 
   ## Installation
-  Run the installer from your terminal.
+  install steps
 
   ## Usage
-  Use the product.
+  usage
 
   ## License
-  License A
+  NOTICE: This project is covered under the GNU-LGPLv3-License.
 
   ## Contributing
-  Contributions can be made.
+  contribute
 
   ## Tests
-  Test it with care.
+  test steps
 
   ## Contact
-  GitHub: [LSabin23](https://github.com/LSabin23/)
-  Send an email to [LSabin23's email](mailto:dev.l.email@fakemail.com) with any questions!
+  [Check out LSabin23 on GitHub](https://github.com/LSabin23/), but you can also send an email to [LSabin23's email](mailto:fake@email.com) with any questions!
   

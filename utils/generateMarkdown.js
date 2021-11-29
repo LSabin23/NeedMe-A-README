@@ -1,19 +1,34 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge (license) {}
+const renderLicenseBadge = license => {
+  if (license) {
+    return `![License badge](https://img.shields.io/static/v1?label=License&message=${license}&color=informational)`
+  } else {
+    return ''
+  }
+}
 
+// NOTE: This isn't listed as part of the acceptance criteria for this challenge. Skipped.
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink (license) {}
+// function renderLicenseLink (license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection (license) {}
+const renderLicenseSection = license => {
+  if (license) {
+    return `NOTICE: This project is covered under the ${license}.`
+  } else {
+    return ''
+  }
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown (data) {
+const generateMarkdown = data => {
   return `
   # ${data.title}
+
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -34,7 +49,7 @@ function generateMarkdown (data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${renderLicenseSection(data.license)}
 
   ## Contributing
   ${data.contribution}
@@ -43,7 +58,7 @@ function generateMarkdown (data) {
   ${data.testSteps}
 
   ## Contact
-  [Check out ${data.gitHubUsername} on GitHub!](https://github.com/${data.gitHubUsername}/), but you can also send an email to [${data.gitHubUsername}'s email](mailto:${data.email}) with any questions!
+  [Check out ${data.gitHubUsername} on GitHub](https://github.com/${data.gitHubUsername}/), but you can also send an email to [${data.gitHubUsername}'s email](mailto:${data.email}) with any questions!
   `
 }
 
